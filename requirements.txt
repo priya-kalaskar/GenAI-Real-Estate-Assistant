@@ -9,4 +9,4 @@ unstructured
 tiktoken
 protobuf
 chromadb
-langchain.chains
+langchain-chains
