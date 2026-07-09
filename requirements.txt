@@ -1,12 +1,11 @@
-python-dotenv
 streamlit
+python-dotenv
 langchain
 langchain-community
 langchain-chroma
 langchain-groq
 langchain-huggingface
+chromadb
 unstructured
 tiktoken
 protobuf
-chromadb
-langchain-chains
