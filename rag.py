@@ -31,8 +31,7 @@ def initialize_components():
 
     if vector_store is None:
         ef = HuggingFaceEmbeddings(
-            model_name=EMBEDDING_MODEL,
-            model_kwargs={"trust_remote_code": True}
+            model_name=EMBEDDING_MODEL
         )
 
         vector_store = Chroma(
